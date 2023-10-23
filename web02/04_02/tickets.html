@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>新一代設計展_Tickets</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="./img/logo/logo.png" alt="logo">
+        <div>
+            <a href="home.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="discover.html">Discover</a>
+            <a href="tickets.html" style="width: 40px; margin: 0px; color: #000; border-bottom: 2px solid #000;">Tickets</a>
+        </div>
+    </div>
+    <div class="body1" style="display:flex; justify-content: center; align-items: center;" >
+        <div class="clack">
+            <div class="ppp">
+
+                <label for="first_name">名字(First name)</label>
+                <input type="text" name="first_name">
+            </div>
+            <div class="ppp">
+                <label for="last_name">姓氏(last name)</label>
+                <input type="text" name="last_name">
+            </div><div class="ppp">
+
+                <label for="phone">手機號碼(phone)</label>
+                <input type="text" name="phone">
+            </div><div class="ppp">
+
+                <label for="passwordd">會員密碼(Password)</label>
+                <input type="password" name="passwordd">
+            </div>
+            <div>
+                <label for="123">數字驗證</label>
+                <span class="veri"></span>
+                <input type="text" name="123">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="facebook.com"><img src="./img/png/facebook.png" alt="Facebook"></a>
+        <a href="google.com"><img src="./img/png/google.png" alt="Google"></a>
+        Copyright &copy; 2023 YODEX All Rights Reserved
+    </div>
+</body>
+<script src="jquery-3.6.3.min.js"></script>
+</html>
+<script>
+    $(".veri").load(veri.php)
+</script>
